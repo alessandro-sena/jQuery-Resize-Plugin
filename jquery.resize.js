@@ -10,6 +10,8 @@
 *
 * http://www.gnu.org/copyleft/gpl.html
 *
+* Update by: Jonathan Fontes, 
+* TOP and LEFT has removed!
 */
 (function( $ ){
 	$.fn.resize = function(max_size) 
@@ -36,11 +38,13 @@
 			  	}
 					
 				//Centralize the image
-				var top  = Math.floor((120-h)/2);
-				var left = Math.floor((120-w)/2);
+				/* var top  = Math.floor((120-h)/2); */
+				/* var left = Math.floor((120-w)/2); */
+				// We dont need this!
+			
 			
 				//Resize the image and put it in the container div
-			  	$(this).css({ 'height': h, 'width': w, 'top': top, 'left': left, 'position': 'absolute'});
+			  	$(this).css({ 'height': h, 'width': w});
 				$(this).parent().append(
 					div_container.append($(this).detach())
 				);
