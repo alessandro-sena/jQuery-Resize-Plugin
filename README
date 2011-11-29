@@ -1,10 +1,14 @@
 Resize, A resize plugin for jQuery
 Intructions: $(seletor).resize(max_size)
 By: Carlos Alessandro Sena de Freitas - veneinzuela@gmail.com
-Version: 1.0
-Updated: September 1st, 2011
+Especial Thanks to: Marc - m33.tmn@gmail.com
+Version: 1.1
+Updated: November 29, 2011
 
 Licensed under the GNU - General Public License 
 You may obtain a copy of the License at
 
 http://www.gnu.org/copyleft/gpl.html
+
+
+
