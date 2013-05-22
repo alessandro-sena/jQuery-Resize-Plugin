@@ -1,5 +1,5 @@
 Resize, A resize plugin for jQuery
-Intructions: $(seletor).resize(max_size)
+Intructions: $(seletor).resizeImg(max_size)
 By: Carlos Alessandro Sena de Freitas - veneinzuela@gmail.com
 Especial Thanks to: Marc - m33.tmn@gmail.com
 Version: 1.1
